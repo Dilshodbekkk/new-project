@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.head {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link_and_button {
+  display: flex;
+  gap: 20px;
+  padding-top: 12px;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+}
+button {
+  width: 135px;
+  height: 45px;
+  background: #f7859c;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+
+.left {
+  position: relative;
+}
+
+.img1 {
+  width: 245px;
+  height: 182px;
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+.img2 {
+  width: 344px;
+  height: 507px;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  z-index: 1;
+}
+
+.img3 {
+  width: 530px;
+  height: 490px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bored_NFT_PEEPS {
+  height: 800px;
+  display: flex;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  left: 500px;
+  top: 120px;
+  z-index: 1;
+}
+
+.NFT {
+  position: absolute;
+  text-align: center;
+}
+
+.img4 {
+  position: absolute;
+  left: 180px;
+}
+
+.q1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.q2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 97px;
+}
+
+.q3 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  width: 500px;
+  font-size: 97px;
+}
+
+.q4 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  width: 429px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.right {
+  position: relative;
+  left: 850px;
+}
+
+.img5 {
+  position: absolute;
+  top: 50px;
+  width: 530px;
+  height: 490px;
+  top: 79px;
+}
+.img6 {
+  position: absolute;
+  width: 245px;
+  height: 251px;
+  left: 25px;
+  top: 440px;
+}
+.img7 {
+  position: absolute;
+  width: 360px;
+  height: 527px;
+  left: 200px;
+  top: 200px;
+}
+
+.bored_peeps {
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.txt1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 55px;
+}
+
+.Collection {
+  text-align: center;
+  font-size: 20px;
+}
+
+.txt_and_img {
+  display: flex;
+  gap: 100px;
+  margin-left: 230px;
+  margin-top: 100px;
+}
+
+.Peeps {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(34, 34, 34);
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.peps {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color: rgb(34, 34, 34);
+  font-size: 24px;
+  text-align: left;
+}
+
+.mint {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color: rgb(34, 34, 34);
+  font-size: 24px;
+  text-align: left;
+}
+
+.why {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color: rgb(34, 34, 34);
+  font-size: 24px;
+  text-align: left;
+}
+
+.tempor {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: rgb(64, 71, 86);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  width: 320px;
+}
+
+.hr {
+  width: 350px;
+}
+
+.image {
+  width: 641px;
+  height: 686px;
+}
+
+.content {
+  background: rgb(251, 241, 230);
+  padding-bottom: 100px;
+}
+
+.Rarity {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: rgb(64, 71, 86);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Exclusive {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hr1 {
+  width: 1240px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.information_and_img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.Tier {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.diam {
+  width: 250px;
+}
+
+.Releases {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  font-size: 18px;
+  text-align: center;
+}
+
+.imgtx {
+  display: flex;
+  gap: 10px;
+  margin-top: 200px;
+}
+
+.img8 {
+width: 32px;
+height: 35px;
+}
+
+.proc {
+  color: #f7859c;
+  font-size: 28px;
+}
+
+.our {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  font-size: 65px;
+  text-align: center;
+}
+
+.Community {
+  background-image: url("./img/Vector3.png");
+  width: 529px;
+  height: 475px;
+  padding-left: 100px;
+  padding-top: 140px;
+}
+
+.Q4 {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  font-size: 18px;
+  text-align: left;
+}
+
+.dao {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  font-size: 36px;
+  text-align: left;
+}
+
+.txt2 {
+  width: 300px;
+  font-size: 18px;
+  text-align: left;
+}
+.Community_DAO_1 {
+  display: flex;
+  gap: 200px;
+  margin-top: 100px;
+  margin-left: 165px;
+  position: relative;
+}
+
+
+
+.Community_DAO {
+  display: flex;
+  gap: 150px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.img9 {
+  position: absolute;
+width: 202px;
+height: 150px;
+right: 330px;
+}
+.img10 {
+  margin-right: 10px;
+}
+
+ .our_roadmap {
+ padding-top: 150px;
+ padding-bottom: 150px;
+}
