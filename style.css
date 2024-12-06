@@ -236,6 +236,7 @@ button {
 .content {
   background: rgb(251, 241, 230);
   padding-bottom: 100px;
+  margin-bottom: -1px;
 }
 
 .Rarity {
@@ -297,8 +298,8 @@ button {
 }
 
 .img8 {
-width: 32px;
-height: 35px;
+  width: 32px;
+  height: 35px;
 }
 
 .proc {
@@ -348,8 +349,6 @@ height: 35px;
   position: relative;
 }
 
-
-
 .Community_DAO {
   display: flex;
   gap: 150px;
@@ -359,15 +358,143 @@ height: 35px;
 
 .img9 {
   position: absolute;
-width: 202px;
-height: 150px;
-right: 330px;
+  width: 202px;
+  height: 150px;
+  right: 330px;
 }
 .img10 {
   margin-right: 10px;
 }
 
- .our_roadmap {
- padding-top: 150px;
- padding-bottom: 150px;
+.our_roadmap {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.Team {
+  background: rgb(253, 219, 226);
+  margin-top: -4px;
+}
+
+.members {
+  display: flex;
+  gap: 30px;
+  margin-left: 230px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.Ceo {
+  text-align: center;
+  font-size: 28px;
+}
+
+.jennifer {
+  text-align: center;
+
+  font-size: 40px;
+}
+
+.hr1 {
+  width: 1000px;
+  margin-bottom: 10px;
+}
+
+.imperdiet {
+  font-size: 30px;
+  margin-left: 200px;
+}
+
+.Questions {
+  margin-bottom: 50px;
+}
+
+.Frequent {
+  position: relative;
+}
+
+.img11 {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+.Follow_us_on {
+  background: rgb(211, 212, 237);
+  margin-bottom: -4px;
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.hr2 {
+  width: 1100px;
+}
+.dd {
+  display: flex;
+  justify-content: space-between;
+}
+.follow {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: left;
+  font-family: Open Sans;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(64, 71, 86);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-right: 180px;
+}
+
+.navigation {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-family: Open Sans;
+  margin-top: 40px;
+  padding-right: 180px;
+}
+
+.menu1 {
+  display: flex;
+  gap: 20px;
+  color: rgb(64, 71, 86);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.txt3 {
+  width: 800px;
+  display: flex;
+  gap: 70px;
+}
+
+.ppp {
+  font-family: Open Sans;
+}
+
+.xx {
+  position: absolute;
+  left: 50px;
+  top: 10px;
 }
